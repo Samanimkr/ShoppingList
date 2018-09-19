@@ -1,0 +1,29 @@
+{
+  "name": "shoppinglist",
+  "version": "1.0.0",
+  "description": "MERN shopping list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samanimkr/ShoppingList.git"
+  },
+  "author": "Samani Mukhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Samanimkr/ShoppingList/issues"
+  },
+  "homepage": "https://github.com/Samanimkr/ShoppingList#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.6.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
